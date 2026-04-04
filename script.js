@@ -2,12 +2,12 @@
 // console.log(arr[2][2][0])
 
 // function add(a, b) {
-//    return a + b 
+//    return a + b
 // }
 // let result = add(3, 6)
 
 // function multiply(x) {
-//    console.log(x * 2) 
+//    console.log(x * 2)
 // }
 
 // multiply(result)
@@ -41,6 +41,6 @@
 //         console.log("even")
 //     } else{
 //         console.log("odd")
-//     } 
+//     }
 // }
 // evenOdd()

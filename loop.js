@@ -51,3 +51,59 @@
 //   console.log(arr[i]);
 //   i++;
 // }
+
+// QUESTION: 1
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// function searchElement(arr, num) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === num) {
+//       return i;
+//     }
+//   }
+//   return -1;
+// }
+
+// console.log(searchElement(arr, arr[arr.length - 1]));
+
+// QUESTION: 2
+// let arr = [1, -2, -4, 7, -9, -8, 6, 90, -7];
+
+// function negativeNumbers(arr) {
+//   let total = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < 0) {
+//       total++;
+//     }
+//   }
+//   return total;
+// }
+// console.log(negativeNumbers(arr));
+
+// QUESTION: 3
+// let arr = [1, 2, 3, 467, 34, 23];
+// function findLargestNumber(arr) {
+//   let largest = -Infinity;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (largest < arr[i]) {
+//       largest = arr[i];
+//     }
+//   }
+//   return largest;
+// }
+
+// console.log(findLargestNumber(arr));
+
+// QUESTION: 4
+// let arr = [-1, 2, 3, -467, 34, -23];
+// function findLargestNumber(arr) {
+//   let largest = Infinity;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (largest > arr[i]) {
+//       largest = arr[i];
+//     }
+//   }
+//   return largest;
+// }
+
+// console.log(findLargestNumber(arr));

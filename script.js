@@ -44,3 +44,58 @@
 //     }
 // }
 // evenOdd()
+
+// const arr = [2, 3, 4, 5, 6, 78, 9];
+
+// function findIndex(arr, num) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === num) {
+//       return i;
+//     }
+//   }
+//   return -1;
+// }
+
+// console.log(findIndex(arr, 4));
+
+// const arr = [-2, 3, -4, 5, -6, 78, -9];
+
+// function minusNumberTotal(arr) {
+//   let total = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < 0) {
+//       total = total + 1;
+//     }
+//   }
+//   return total;
+// }
+
+// console.log(minusNumberTotal(arr));
+
+// const arr = [2, 3, 4, 5, 6, 78, 9];
+
+// function findLargestNumber(arr) {
+//   let largest = -Infinity;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//       largest = arr[i];
+//     }
+//   }
+//   return largest;
+// }
+
+// console.log(findLargestNumber(arr));
+
+// const arr = [-2, 3, -4, 5, -6, 78, 9];
+
+// function findLargestNumber(arr) {
+//   let smallest = Infinity;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < smallest) {
+//       smallest = arr[i];
+//     }
+//   }
+//   return smallest;
+// }
+
+// console.log(findLargestNumber(arr));

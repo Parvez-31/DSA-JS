@@ -127,3 +127,23 @@
 // }
 
 // console.log(findLargestNumber(arr));
+
+//TOPIC: Second Largest
+// const arr = [3, 4, 7, 3, 9, 2, 4, 7];
+
+// function findSecondLargest(arr) {
+//   let largest = -Infinity;
+//   let secondLargest = -Infinity;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//       secondLargest = largest;
+//       largest = arr[i];
+//     } else if (arr[i] > secondLargest) {
+//       secondLargest = arr[i];
+//     }
+//   }
+//   return secondLargest;
+// }
+
+// console.log(findSecondLargest(arr));

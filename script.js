@@ -99,3 +99,31 @@
 // }
 
 // console.log(findLargestNumber(arr));
+
+// const arr = [-2, 3, -4, 5, -6, 78, 9];
+
+// function findLargestNumber(arr) {
+//   let largest = -Infinity;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (largest < arr[i]) {
+//       largest = arr[i];
+//     }
+//   }
+//   return largest;
+// }
+
+// console.log(findLargestNumber(arr));
+
+// const arr = [-2, 3, -4, 5, -6, 78, 9];
+
+// function findLargestNumber(arr) {
+//   let smallest = Infinity;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (smallest > arr[i]) {
+//       smallest = arr[i];
+//     }
+//   }
+//   return smallest;
+// }
+
+// console.log(findLargestNumber(arr));

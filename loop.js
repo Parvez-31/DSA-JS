@@ -147,3 +147,61 @@
 //   }
 //   console.log(row);
 // }
+// let n = 4;
+// for (let i = 0; i < n; i++) {
+//   let row = " ";
+//   for (let j = 0; j < i + 1; j++) {
+//     row = row + "*";
+//   }
+//   console.log(row);
+// }
+
+// let n = 4;
+// for (let i = 0; i < n; i++) {
+//   let row = " ";
+//   for (let j = 0; j <= i; j++) {
+//     row = row + "*";
+//   }
+//   console.log(row);
+// }
+
+// let n = 5;
+// for (let i = 0; i < n; i++) {
+//   let row = " ";
+//   for (let j = 0; j <= i; j++) {
+//     row = row + (j + 1);
+//   }
+//   console.log(row);
+// }
+
+// let n = 5;
+// for (let i = 0; i < n; i++) {
+//   let row = "";
+//   for (let j = 0; j < i + 1; j++) {
+//     row = row + (i + 1);
+//   }
+//   console.log(row);
+// }
+
+// let n = 5;
+// for (let i = 1; i <= n; i++) {
+//   let row = "";
+//   for (let j = 1; j <= i; j++) {
+//     row = row + i;
+//   }
+//   console.log(row);
+// }
+
+// function sum(...args) {
+// Your implementation
+//   console.log(args);
+//   let sum = 0;
+//   for (let i = 0; i < args.length; i++) {
+//     sum = sum + args[i];
+//   }
+//   console.log(sum);
+//   return 0;
+// }
+
+//For the purpose of user debugging.
+// sum(100, 200, 300, 400);

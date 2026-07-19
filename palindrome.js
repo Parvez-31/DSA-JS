@@ -1,4 +1,7 @@
 const isPalindrome = (x) => {
+  // for negative number
+  //   if (x < 0) return false;
+
   let xcopy = x;
   let rev = 0;
   while (x > 0) {
